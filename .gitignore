@@ -1,4 +1,6 @@
 token.json
+emails.txt
+downloads/
 venv/
 email-creds.txt
 credentials.json
