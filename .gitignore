@@ -1,0 +1,5 @@
+token.json
+venv/
+email-creds.txt
+credentials.json
+client_secret_*-*.apps.googleusercontent.com.json
