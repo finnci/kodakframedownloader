@@ -44,7 +44,7 @@ def main():
     if emails != []:
         for e in emails:
             from_e = "from:{email}".format(email=e)
-            query = query + " AND {}".format(from_e)
+            query = query + " OR {}".format(from_e)
 
     response = service.users().messages().list(userId="me", q=query, maxResults=500).execute()
 
